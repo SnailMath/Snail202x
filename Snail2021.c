@@ -1,3 +1,8 @@
+
+#ifndef MOD_TXT
+  #define MOD_TXT "'Place the default modification here"
+#endif
+
 #include <io.h> //access()
 #include <stdio.h>
 #include <stdlib.h> // system()
@@ -235,7 +240,7 @@ If you have a question, ask on Discord:  !\n");
       printf("  ERROR! Cannot create the file \"mod.txt\". Either let me create the default\n         version or create your own.\n");
       fgets(str, 3,stdin); return -1;
     }
-    fputs("'Place the default modification here",Fin);
+    fputs( MOD_TXT ,Fin);
     fclose(Fin);
 
   }
