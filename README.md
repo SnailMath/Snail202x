@@ -13,7 +13,7 @@ The mod, that should be applied to the firmware, should be placed in a file call
 
 Structure of mod.txt
 ```
-'2.1.2 'The version number of the OS to modify. If this does not match with the firmware, Snail202x will throw an error. This is optional.
+'ver02.01.2000 'The version number of the OS to modify. If this does not match with the firmware, Snail202x will throw an error. This is optional.
 80123456: 'The Address of the first modification in hexadecimal
 0000000000000000 'The data of this modification in hex. This will be put into the firmware. 
 
