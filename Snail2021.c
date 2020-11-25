@@ -131,7 +131,7 @@ Did you download it from the official website?\n\
 Is the updater program still open?\n\
 Are the files in \"AppData/Local/Temp/{15B89FD6-8906-4C3B-A271-A4B3A29D545A}\"?\n\
 Is this program in \"Desktop/Snail2021\"?\n\
-If you have a question, ask on Discord:  !\n");
+If you have a question, ask on Discord: https://discord.com/invite/fWxZXvy !\n");
     fgets(str, 3,stdin); return -1; 
     }
   }
