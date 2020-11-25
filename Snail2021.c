@@ -697,13 +697,14 @@ If you want to install the update on another calculator or if you\n\
 want to undo the changes, doubleclick the file in this folder, where the name\n\
 starts with \"click_to_\".\n\
 \n\
-If there is an error with some dll stuff, just hit ok, the language didn't\n\
-wort, just hit ok, there will be no text.\n\
+If there is an error with some dll stuff, just hit ok.\n\
+In this case the language file didn't work, just hit ok.\n\
+If this happens, there will be no text, but the update will still work.\n\
 ");
 
   system("start rundll32 OSupdateDLL_mod.dll,OSUpdate");
 
-  printf("\nEverything done. The update may take 15 minutes.\n\n\
+  printf("\nEverything done. The update may take up to 10 minutes.\n\n\
 Have Fun!!!\n\n\
 [press ENTER to close this program...]\n");
 
